@@ -11,7 +11,7 @@ This project implements a sentence-pair modeling approach to tackle the relation
 
 ## 🧠 Task Overview
 
-The TACRED dataset is a large-scale relation extraction benchmark with 42 labeled relations between subject and object entities within sentences. Traditional modeling formulates this task as a multi-class classification problem.
+The TACRED dataset (Dataset Link: https://nlp.stanford.edu/projects/tacred/) is a large-scale relation extraction benchmark with 42 labeled relations between subject and object entities within sentences. Traditional modeling formulates this task as a multi-class classification problem.
 
 In this project, we explore an **episodic, pairwise strategy** inspired by meta-learning:
 

@@ -1,6 +1,5 @@
 ---
 layout: home
-title: TACRED Relation Extraction via Sentence Pair Classification
 ---
 
 Welcome to my NLP modeling project on the **TACRED** dataset. 

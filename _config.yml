@@ -1,0 +1,8 @@
+title: TACRED Relation Extraction
+author: Your Name
+description: Sentence-pair classification for relation extraction on the TACRED dataset.
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

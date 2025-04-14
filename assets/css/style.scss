@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// ⬇️ 添加你自己的样式覆盖
+p {
+  margin-bottom: 1.5em;  // 加大段落之间的间距
+  line-height: 1.8;      // 增加行间距，更好读
+}
+
+h1, h2, h3 {
+  margin-top: 2em;       // 让标题和段落之间更宽松
+}
+
+ul, ol {
+  margin-bottom: 1.5em;  // 列表之后加段间距
+}

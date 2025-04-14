@@ -1,4 +1,9 @@
-# TACRED Relation Extraction via Sentence Pair Classification
+---
+layout: home
+title: TACRED Relation Extraction via Sentence Pair Classification
+---
+
+Welcome to my NLP modeling project on the **TACRED** dataset. 
 
 This project implements a sentence-pair modeling approach to tackle the relation extraction task on the TACRED dataset, using `CrossEncoder` models from the `sentence-transformers` library.
 

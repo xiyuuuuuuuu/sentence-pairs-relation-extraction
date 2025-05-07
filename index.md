@@ -56,7 +56,7 @@ Then, code will use the relation of the support sentence with the highest simila
 
 **Illustration of the underlying principle：**
 
-<img src="/assets/modeling.png" style="zoom:48%;" />
+<img src="assets/modeling.png" style="zoom:48%;" />
 
 
 
@@ -75,8 +75,10 @@ Dataset: One-shot TACRED
   The few-shot TACRED dataset (https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00392/106791/Revisiting-Few-shot-Relation-Classification)).
 
 Meta Data of One-shot TACRED: one episode of One-shot TACRED
+<details>
+<summary>Click to expand JSON example of one episode</summary>
 
-```json
+<pre style="font-size: 12px;">
 {
     "meta_train": [
       [
@@ -184,7 +186,9 @@ Meta Data of One-shot TACRED: one episode of One-shot TACRED
       },
     ]
   },
-```
+</pre>
+
+</details>
 
 
 
@@ -207,12 +211,17 @@ Preprocessing under Sentence-Pair Framework:
 
   <u>Meta data:</u>
 
-  ```json
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
   {
     "sentence": "In high school and at Southern Methodist University , where , already known as # ^ individual ^ Dandy Don # ( a nickname bestowed on him by his brother ) , @ * individual * Meredith @ became an all-American .",
     "relation": "per:alternate_names"
   }
-  ```
+</pre>
+
+</details>
 
   
 
@@ -224,22 +233,20 @@ Preprocessing under Sentence-Pair Framework:
 
   <u>Meta data:</u>
 
-  ```json
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
   {
     "ts_sentence": "@ * firm * Escada @ , which employs around # ^ number ^ 2,300 # people worldwide , was forced to file for insolvency in mid August .",
     "ss_sentence": "In high school and at Southern Methodist University , where , already known as # ^ individual ^ Dandy Don # ( a nickname bestowed on him by his brother ) , @ * individual * Meredith @ became an all-American .",
     "ts_relation": "no_relation",
     "ss_relation": "per:alternate_names"
   }
-  ```
+</pre>
 
-* Code:
+</details>
 
-  ```bash
-  --generate_data_code
-  	-generate_train_val_data_tacred.py
-  	-generate_train_val_data_tacred.sh
-  ```
 
 
 
@@ -273,17 +280,25 @@ under the file path: results/tacred_1shot.jsonl
 
 Summary:
 
-```json
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
 {
 	"p_tacred": 5.9 ± 0.72,
 	"r_tacred": 12.86 ± 1.52,
 	"f1_tacred": 8.09 ± 0.97
 }
-```
+</pre>
+
+</details>
 
 The results for each val data file:
 
-```json
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
 {
   "evaluation_path": "generated_datasets/dev_episodes/val/5_way_1_shots_10K_episodes_3q_seed_160290.jsonl", "threshold": 0.78, "p_tacred": 6.5979381443298974, "r_tacred": 13.714285714285715, "f1_tacred": 8.909512761020883, 
 }
@@ -303,7 +318,9 @@ The results for each val data file:
 {
   "evaluation_path": "generated_datasets/dev_episodes/val/5_way_1_shots_10K_episodes_3q_seed_160294.jsonl", "threshold": 0.78, "p_tacred": 4.9603174603174605, "r_tacred": 10.608203677510609, "f1_tacred": 6.7598017124831005,
 }
-```
+</pre>
+
+</details>
 
 
 
@@ -313,7 +330,10 @@ All the requirements packages are listed in the file: requirement.txt .
 
 You can create the `python` env with `conda` using the following commands.
 
-```bash
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
 conda create -n sentpair python=3.9 -y
 conda activate sentpair
 
@@ -333,13 +353,18 @@ pip install scipy
 pip install datasets
 
 pip install -U 'accelerate>=0.26.0'
-```
+</pre>
+
+</details>
 
 
 
 ## 🖥️ Codebase Overview
 
-```bash
+<details>
+<summary>Click to expand JSON example of one episode</summary>
+
+<pre style="font-size: 12px;">
 .
 ├── generate_data_code											# generate train and val dataset code
 │   ├── entity_marker_with_reg.py					
@@ -373,7 +398,9 @@ pip install -U 'accelerate>=0.26.0'
 │   └── run.sh													# bash file to run sentence_pair.py  
 └── src
     └── sentence_pair.py								# main code containing training, evaluating model
-```
+</pre>
+
+</details>
 
 
 

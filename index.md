@@ -193,7 +193,7 @@ Meta Data of One-shot TACRED: one episode of One-shot TACRED
   },
 </pre>
 
-</details>
+ 
 
 <br>
 
@@ -226,7 +226,7 @@ Preprocessing under Sentence-Pair Framework:
   }
 </pre>
 
-</details>
+ 
 
   
 
@@ -250,7 +250,7 @@ Preprocessing under Sentence-Pair Framework:
   }
 </pre>
 
-</details>
+ 
 
 <br>
 
@@ -300,7 +300,7 @@ Summary:
 }
 </pre>
 
-</details>
+ 
 
 The results for each val data file:
 
@@ -329,7 +329,7 @@ The results for each val data file:
 }
 </pre>
 
-</details>
+ 
 
 <br>
 
@@ -366,7 +366,7 @@ pip install datasets
 pip install -U 'accelerate>=0.26.0'
 </pre>
 
-</details>
+ 
 
 <br>
 
@@ -413,7 +413,7 @@ pip install -U 'accelerate>=0.26.0'
     └── sentence_pair.py								# main code containing training, evaluating model
 </pre>
 
-</details>
+ 
 
 
 

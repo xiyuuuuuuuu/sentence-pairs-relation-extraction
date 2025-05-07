@@ -80,7 +80,7 @@ Dataset: One-shot TACRED
   The few-shot TACRED dataset (https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00392/106791/Revisiting-Few-shot-Relation-Classification)).
 
 Meta Data of One-shot TACRED: one episode of One-shot TACRED
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -216,7 +216,7 @@ Preprocessing under Sentence-Pair Framework:
 
   <u>Meta data:</u>
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -238,7 +238,7 @@ Preprocessing under Sentence-Pair Framework:
 
   <u>Meta data:</u>
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -289,7 +289,7 @@ under the file path: results/tacred_1shot.jsonl
 
 Summary:
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -304,7 +304,7 @@ Summary:
 
 The results for each val data file:
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -341,7 +341,7 @@ All the requirements packages are listed in the file: requirement.txt .
 
 You can create the `python` env with `conda` using the following commands.
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">
@@ -374,7 +374,7 @@ pip install -U 'accelerate>=0.26.0'
 
 ## 🖥️ Codebase Overview
 
-<details>
+ 
  
 
 <pre style="font-size: 12px;">

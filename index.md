@@ -81,7 +81,7 @@ Dataset: One-shot TACRED
 
 Meta Data of One-shot TACRED: one episode of One-shot TACRED
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
 {
@@ -217,7 +217,7 @@ Preprocessing under Sentence-Pair Framework:
   <u>Meta data:</u>
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
   {
@@ -239,7 +239,7 @@ Preprocessing under Sentence-Pair Framework:
   <u>Meta data:</u>
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
   {
@@ -290,7 +290,7 @@ under the file path: results/tacred_1shot.jsonl
 Summary:
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
 {
@@ -305,7 +305,7 @@ Summary:
 The results for each val data file:
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
 {
@@ -342,7 +342,7 @@ All the requirements packages are listed in the file: requirement.txt .
 You can create the `python` env with `conda` using the following commands.
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
 conda create -n sentpair python=3.9 -y
@@ -375,7 +375,7 @@ pip install -U 'accelerate>=0.26.0'
 ## 🖥️ Codebase Overview
 
 <details>
-<summary>Click to expand</summary>
+ 
 
 <pre style="font-size: 12px;">
 .

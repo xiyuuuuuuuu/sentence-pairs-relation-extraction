@@ -11,7 +11,6 @@ This project implements a sentence-pair modeling approach to tackle the relation
 
 <br>
 <br>
-<br>
 
 
 ## 🧠 Task Overview
@@ -21,7 +20,6 @@ This project implements a sentence-pair modeling approach to tackle the relation
 *As part of this course project, I only present a reproduction of the sentence-pair baseline.*
 
 
-<br>
 <br>
 <br>
 
@@ -37,7 +35,6 @@ After selecting the dataset, we preprocess the one-shot TACRED dev split accordi
 Finally, we use precision, recall, and F1 score as evaluation metrics to measure the gap between the predicted relation and the gold relation, providing a comprehensive assessment of the model’s performance.
 
 
-<br>
 <br>
 <br>
 
@@ -67,7 +64,7 @@ Then, code will use the relation of the support sentence with the highest simila
 
 <br>
 <br>
-<br>
+
 
 
 ## 📂  Dataset Selection & Preprocessing
@@ -256,7 +253,7 @@ Preprocessing under Sentence-Pair Framework:
 </details>
 
 <br>
-<br>
+
 <br>
 
 
@@ -282,7 +279,7 @@ Evaluating:
 
 
 <br>
-<br>
+
 <br>
 
 
@@ -335,7 +332,7 @@ The results for each val data file:
 </details>
 
 <br>
-<br>
+
 <br>
 
 ## ⚙️ Environment
@@ -372,7 +369,7 @@ pip install -U 'accelerate>=0.26.0'
 </details>
 
 <br>
-<br>
+
 <br>
 
 ## 🖥️ Codebase Overview

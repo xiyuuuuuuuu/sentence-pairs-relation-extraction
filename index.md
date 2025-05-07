@@ -9,7 +9,9 @@ This project implements a sentence-pair modeling approach to tackle the relation
 
 
 
-
+<br>
+<br>
+<br>
 
 
 ## 🧠 Task Overview
@@ -19,7 +21,9 @@ This project implements a sentence-pair modeling approach to tackle the relation
 *As part of this course project, I only present a reproduction of the sentence-pair baseline.*
 
 
-
+<br>
+<br>
+<br>
 
 
 ## 📂  Overall flow of this work
@@ -33,7 +37,9 @@ After selecting the dataset, we preprocess the one-shot TACRED dev split accordi
 Finally, we use precision, recall, and F1 score as evaluation metrics to measure the gap between the predicted relation and the gold relation, providing a comprehensive assessment of the model’s performance.
 
 
-
+<br>
+<br>
+<br>
 
 
 ## 📟 Modeling Details
@@ -59,7 +65,9 @@ Then, code will use the relation of the support sentence with the highest simila
 <img src="assets/modeling.png" style="zoom:48%;" />
 
 
-
+<br>
+<br>
+<br>
 
 
 ## 📂  Dataset Selection & Preprocessing
@@ -76,7 +84,7 @@ Dataset: One-shot TACRED
 
 Meta Data of One-shot TACRED: one episode of One-shot TACRED
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
 {
@@ -190,7 +198,7 @@ Meta Data of One-shot TACRED: one episode of One-shot TACRED
 
 </details>
 
-
+<br>
 
 Preprocessing under Sentence-Pair Framework: 
 
@@ -212,7 +220,7 @@ Preprocessing under Sentence-Pair Framework:
   <u>Meta data:</u>
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
   {
@@ -234,7 +242,7 @@ Preprocessing under Sentence-Pair Framework:
   <u>Meta data:</u>
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
   {
@@ -247,7 +255,9 @@ Preprocessing under Sentence-Pair Framework:
 
 </details>
 
-
+<br>
+<br>
+<br>
 
 
 ## 🧱 Training and Evaluating
@@ -271,7 +281,9 @@ Evaluating:
 
 
 
-
+<br>
+<br>
+<br>
 
 
 ## 📈 Results
@@ -281,7 +293,7 @@ under the file path: results/tacred_1shot.jsonl
 Summary:
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
 {
@@ -296,7 +308,7 @@ Summary:
 The results for each val data file:
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
 {
@@ -322,7 +334,9 @@ The results for each val data file:
 
 </details>
 
-
+<br>
+<br>
+<br>
 
 ## ⚙️ Environment
 
@@ -331,7 +345,7 @@ All the requirements packages are listed in the file: requirement.txt .
 You can create the `python` env with `conda` using the following commands.
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
 conda create -n sentpair python=3.9 -y
@@ -357,12 +371,14 @@ pip install -U 'accelerate>=0.26.0'
 
 </details>
 
-
+<br>
+<br>
+<br>
 
 ## 🖥️ Codebase Overview
 
 <details>
-<summary>Click to expand JSON example of one episode</summary>
+<summary>Click to expand</summary>
 
 <pre style="font-size: 12px;">
 .
